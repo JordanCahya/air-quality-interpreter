@@ -63,7 +63,7 @@ Example for FastAPI = docker run -p 8000:8000 air-quality-interpreter
 
 From the above images, it can be seen that the user will need to input several input feature such as stasiun, pm10, pm25, so2, co, o3, and no2. The interpreter will later generate a boolean output wheteher it is Good Air Quality or Bad Air Quality.
 
-## 4. Limitation
+## 4. Improvement Notes
 
 - Due to time constraints, the streamlit has been embedded with several codes from the fastAPI file as the streamlit failed to read the gateway link provided by the fastAPI. Therefore, no bridge/connection between the fastAPI and frontend (Streamlit).
 
