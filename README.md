@@ -49,11 +49,27 @@ Example for FastAPI = docker build -t air-quality-interpreter
 Example for Streamlit = docker run -p 8501:8501 air-quality-interpreter-deployment
 Example for FastAPI = docker run -p 8000:8000 air-quality-interpreter
 
-- The container should be run automatically after building the container. If the container is already stop working, visit the docker container and press start below Actions.
+- The container should be run automatically after building the container. If the container is already stop working, visit the docker container, press start below Actions, and click on the port.
 
 ![image](https://user-images.githubusercontent.com/115296804/233839926-71d03905-6d9a-467d-bfc8-c8cdb0246de9.png)
 
-- For backend without User Interface, press start on the FastAPI.
+- For backend without User Interface, press start on the FastAPI or container with port 8000:8000.
 
-- For frontend with User Interface, press start on Streamlit.
+- For frontend with User Interface, press start on Streamlit or container with port 8501:8501.
 
+- Supposedly, the frontend with User Interface is started and the port 8501:8501 has been clicked. Then the computer will redirected to browser and open a website which display as follows: 
+
+![image](https://user-images.githubusercontent.com/115296804/233840647-7234d24f-1da0-4489-81f3-2705fe111c67.png)
+
+From the above images, it can be seen that the user will need to input several input feature such as stasiun, pm10, pm25, so2, co, o3, and no2. The interpreter will later generate a boolean output wheteher it is Good Air Quality or Bad Air Quality.
+
+## 4. Limitation
+
+- Due to time constraints, the streamlit has been embedded with several codes from the fastAPI file as the streamlit failed to read the gateway link provided by the fastAPI. Therefore, no bridge/connection between the fastAPI and frontend (Streamlit).
+
+- Due to unavailable resources, the deployment needs to be stopped only at Docker Containers, as most of the commonly used deployment platform requires a subscription.
+
+## 5. Reference
+
+- Pacmann Class
+- FastAPI, Docker, and Streamlit youtube videos by AssemblyAI and Krish Naik
