@@ -1,5 +1,9 @@
 # Air Quality Interpreter
 
+**Project Architecture:**
+
+![image](https://user-images.githubusercontent.com/115296804/233829668-6224bc3f-58a8-4e88-af6a-c4cf69de6141.png)
+
 ## 1. Brief Documentation
 
 The air quality interpreter was developed using **Visual Studio Code** as the code editor on a virtual machine that utilized **Window Subsystem for Linux version 2 (WSL 2)**. The necessary modules and packages to build the air quality interpreter are listed in the _"requirements.txt"_ file. 
@@ -28,9 +32,5 @@ An air quality interpreter is created and trained using a certain dataset from h
 - o3 = (int) ozone - a highly reactive gas.
 - no2 = (int) nitrogen dioxide - highly reactive gases.
 - category = (str) the category of the air pollution standard index calculation result.
-
-**Project Architecture:**
-
-![image](https://user-images.githubusercontent.com/115296804/233829668-6224bc3f-58a8-4e88-af6a-c4cf69de6141.png)
 
 
