@@ -33,6 +33,23 @@ An air quality interpreter is created and trained using a certain dataset from h
 - no2 = (int) nitrogen dioxide - highly reactive gases.
 - category = (str) the category of the air pollution standard index calculation result.
 
-## 3. How to Use the Air Quality Interpreter
+## 3. How to Use the Air Quality Interpreter in Local Host
 
+- Ensure laptop have been installed with docker desktop
+
+- Ensure code editor (in my case VS Code) have been integrated with docker desktop
+
+- Deploy the Streamlit and the FastAPI to Docker Platform using "docker build -t <name_of_project>". Each of the Streamlit and the FastAPI need to be deploy separately using different project name.
+
+Example for Streamlit = docker build -t air-quality-interpreter-deployment
+Example for FastAPI = docker build -t air-quality-interpreter
+
+- Build the container for the Streamlit and the FastAPI that have been deployed using "docker run -p <8501:8501 (for Streamlit)/8000:8000 (for FastAPI)> <name_of_project>. The name of the project need to be consistent with the deployment.
+
+Example for Streamlit = docker run -p 8501:8501 air-quality-interpreter-deployment
+Example for FastAPI = docker run -p 8000:8000 air-quality-interpreter
+
+- The container should be run automatically after building the container. If the container is already stop working, visit the docker container and press start below Actions.
+
+![image](https://user-images.githubusercontent.com/115296804/233839926-71d03905-6d9a-467d-bfc8-c8cdb0246de9.png)
 
