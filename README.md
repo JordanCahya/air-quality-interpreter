@@ -53,3 +53,7 @@ Example for FastAPI = docker run -p 8000:8000 air-quality-interpreter
 
 ![image](https://user-images.githubusercontent.com/115296804/233839926-71d03905-6d9a-467d-bfc8-c8cdb0246de9.png)
 
+- For backend without User Interface, press start on the FastAPI.
+
+- For frontend with User Interface, press start on Streamlit.
+
