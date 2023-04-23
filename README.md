@@ -71,5 +71,5 @@ From the above images, it can be seen that the user will need to input several i
 
 ## 5. Reference
 
-- Pacmann Class
-- FastAPI, Docker, and Streamlit youtube videos by AssemblyAI and Krish Naik
+- Pacmann Class.
+- FastAPI, Docker, and Streamlit youtube videos by AssemblyAI and Krish Naik.
