@@ -29,3 +29,6 @@ An air quality interpreter is created and trained using a certain dataset from h
 - no2 = (int) nitrogen dioxide - highly reactive gases.
 - category = (str) the category of the air pollution standard index calculation result.
 
+![image](https://user-images.githubusercontent.com/115296804/233829668-6224bc3f-58a8-4e88-af6a-c4cf69de6141.png)
+
+
