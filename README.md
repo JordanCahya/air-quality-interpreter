@@ -73,3 +73,5 @@ From the above images, it can be seen that the user will need to input several i
 
 - Pacmann Class.
 - FastAPI, Docker, and Streamlit youtube videos by AssemblyAI and Krish Naik.
+- Jakarta Open Source: https://data.jakarta.go.id/dataset/indeks-standar-pencemaran-udara-ispu-tahun-2021
+- Medium: https://medium.com/@jordancahya1/end-to-end-machine-learning-process-air-quality-interpreter-ddf7d6a9ed16
