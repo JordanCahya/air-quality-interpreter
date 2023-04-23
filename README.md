@@ -18,15 +18,13 @@ Air pollution is a serious environmental issue that has far-reaching consequence
 
 The goal of this project is to increase public awareness of air quality in Jakarta and encourage residents to take measures to protect their health by interpreting information on air quality on their own. Therefore, residents can informed decisions about where to engage in outdoor activities.
 
+An air quality interpreter is created and trained using a certain dataset from https://data.jakarta.go.id/dataset/indeks-standar-pencemaran-udara-ispu-tahun-2021 to reach the goal of this project. The database contains a dataset of the Air Pollution Standard Index (ISPU) measured from the Air Quality Monitoring Station (SPKU). The interpreter is trained on a dataset ranging from June to December 2021, to give a more reliable interpretation of air quality, which has the following features:
 
-
-
-
-
-
-
-
-
-
-
-
+station = (str) the location where the measurement is taken
+pm10 = (int) Air particles that are smaller than 10 microns (micrometers) in size.
+pm25 = (int) Air particles that are smaller than 2.5 microns (micrometers) in size.
+so2 = (int) sulfur dioxide - a colorless gas or liquid with a strong, choking odor.
+co = (int) carbon monoxide - an odorless, colorless gas formed by the incomplete combustion of fuels.
+o3 = (int) ozone - a highly reactive gas.
+no2 = (int) nitrogen dioxide - highly reactive gases.
+category = (str) the category of the air pollution standard index calculation result.
