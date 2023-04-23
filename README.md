@@ -14,7 +14,9 @@ The generated response of prediction from the FastAPI is boolean either good air
 
 ## 2. Description of Project
 
+Air pollution is a serious environmental issue that has far-reaching consequences on human health. Exposure to polluted air can lead to a range of respiratory problems, such as bronchitis, asthma, and even lung cancer. Moreover, air pollution is not just limited to respiratory illnesses; it can also cause eye problems, such as glaucoma, as well as heart disease and stroke.
 
+The goal of this project is to increase public awareness of air quality in Jakarta and encourage residents to take measures to protect their health by interpreting information on air quality on their own. Therefore, residents can informed decisions about where to engage in outdoor activities.
 
 
 
